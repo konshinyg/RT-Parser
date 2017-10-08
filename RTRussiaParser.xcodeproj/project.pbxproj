@@ -12,6 +12,9 @@
 		1360436F1F8A7F39002816A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1360436D1F8A7F39002816A1 /* Main.storyboard */; };
 		136043711F8A7F39002816A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136043701F8A7F39002816A1 /* Assets.xcassets */; };
 		136043741F8A7F39002816A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136043721F8A7F39002816A1 /* LaunchScreen.storyboard */; };
+		1360437D1F8A7F6E002816A1 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360437B1F8A7F6E002816A1 /* NewsCell.swift */; };
+		1360437E1F8A7F6E002816A1 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1360437C1F8A7F6E002816A1 /* NewsCell.xib */; };
+		136043801F8A809F002816A1 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1360437F1F8A809F002816A1 /* noImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		136043701F8A7F39002816A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136043731F8A7F39002816A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136043751F8A7F39002816A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1360437B1F8A7F6E002816A1 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		1360437C1F8A7F6E002816A1 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		1360437F1F8A809F002816A1 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 				136043691F8A7F39002816A1 /* AppDelegate.swift */,
 				1360436B1F8A7F39002816A1 /* ViewController.swift */,
 				1360436D1F8A7F39002816A1 /* Main.storyboard */,
+				1360437B1F8A7F6E002816A1 /* NewsCell.swift */,
+				1360437C1F8A7F6E002816A1 /* NewsCell.xib */,
 				136043701F8A7F39002816A1 /* Assets.xcassets */,
 				136043721F8A7F39002816A1 /* LaunchScreen.storyboard */,
+				1360437F1F8A809F002816A1 /* noImage.png */,
 				136043751F8A7F39002816A1 /* Info.plist */,
 			);
 			path = RTRussiaParser;
@@ -126,6 +135,8 @@
 			files = (
 				136043741F8A7F39002816A1 /* LaunchScreen.storyboard in Resources */,
 				136043711F8A7F39002816A1 /* Assets.xcassets in Resources */,
+				136043801F8A809F002816A1 /* noImage.png in Resources */,
+				1360437E1F8A7F6E002816A1 /* NewsCell.xib in Resources */,
 				1360436F1F8A7F39002816A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1360436C1F8A7F39002816A1 /* ViewController.swift in Sources */,
+				1360437D1F8A7F6E002816A1 /* NewsCell.swift in Sources */,
 				1360436A1F8A7F39002816A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
